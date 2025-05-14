@@ -88,7 +88,7 @@ shopify app dev
 
 ---
 
-### 📈 Improvements to Consider
+### 📈 Future Improvements to Consider
 
 * Connect to real Shopify product API
 * Use Polaris components for consistent Shopify UI
