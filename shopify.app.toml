@@ -1,9 +1,9 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
-client_id = "dffd0b6d7e7b1d16781cd051361588c8"
-name = "Wishlist"
-handle = "wishlist-764"
-application_url = "https://treo-enabled-model-it.trycloudflare.com"
+client_id = "fe6bc2edadde7d3819b887a499f223f1"
+name = "wishlist app"
+handle = "wishlist-app-366"
+application_url = "https://kb-silicon-normal-touched.trycloudflare.com"
 embedded = true
 
 [build]
@@ -13,23 +13,15 @@ automatically_update_urls_on_dev = true
 [webhooks]
 api_version = "2025-04"
 
-  [[webhooks.subscriptions]]
-  topics = [ "app/uninstalled" ]
-  uri = "/webhooks/app/uninstalled"
-
-  [[webhooks.subscriptions]]
-  topics = [ "app/scopes_update" ]
-  uri = "/webhooks/app/scopes_update"
-
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
 scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://treo-enabled-model-it.trycloudflare.com/auth/callback",
-  "https://treo-enabled-model-it.trycloudflare.com/auth/shopify/callback",
-  "https://treo-enabled-model-it.trycloudflare.com/api/auth/callback"
+  "https://kb-silicon-normal-touched.trycloudflare.com/auth/callback",
+  "https://kb-silicon-normal-touched.trycloudflare.com/auth/shopify/callback",
+  "https://kb-silicon-normal-touched.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]
